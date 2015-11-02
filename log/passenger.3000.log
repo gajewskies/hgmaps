@@ -1,0 +1,31 @@
+[ 2015-11-02 00:44:40.9560 15956/7fcd2d7d4780 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2015-11-02 00:44:40.9935 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2015-11-02 00:44:40.9948 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-02 00:44:41.0328 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 15959
+[ 2015-11-02 00:44:41.0956 15966/7fdb35d8d780 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2015-11-02 00:44:41.1022 15966/7fdb35d8d780 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 15966
+App 16007 stdout: 
+App 16037 stdout: 
+
+[ 2015-11-02 00:46:18.4821 15959/7fcb00b8c700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-02 00:46:18.4822 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2015-11-02 00:46:18.4823 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16037, application /home/tyler/Documents/hgmaps/public (development)
+[ 2015-11-02 00:46:18.4823 15966/7fdb33f25700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-02 00:46:18.4824 15966/7fdb35d8d780 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-02 00:46:18.4829 15966/7fdb33724700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-11-02 00:46:18.4829 15959/7fcaebfff700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-02 00:46:18.4830 15966/7fdb33724700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-11-02 00:46:18.4830 15959/7fcaebfff700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-02 00:46:18.4838 15966/7fdb33f25700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2015-11-02 00:46:18.4842 15959/7fcaeb7fe700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-02 00:46:18.4843 15959/7fcaeb7fe700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-02 00:46:18.4849 15959/7fcaea7fc700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-02 00:46:18.4849 15959/7fcb00b8c700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-02 00:46:18.4850 15959/7fcaea7fc700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2015-11-02 00:46:18.4851 15959/7fcb00b8c700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-02 00:46:18.4852 15959/7fcaeaffd700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-02 00:46:18.4852 15959/7fcaeaffd700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-02 00:46:18.4856 15966/7fdb35d8d780 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2015-11-02 00:46:18.4857 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16037, application /home/tyler/Documents/hgmaps/public (development)
+[ 2015-11-02 00:46:18.7155 15959/7fcb02bd3780 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
